@@ -4,4 +4,7 @@ version = "0.1.0"
 description = "An offline-only Minecraft launcher and mod manager"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "requests>=2.32.3",
+    "rich>=14.0.0",
+]
